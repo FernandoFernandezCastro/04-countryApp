@@ -30,7 +30,7 @@ export class CountryPageComponent implements OnInit{
         if(!country){
           return this.router.navigateByUrl('')
         }
-        return this.country= country;
+        return this.country=country;
       })
     //una lternativa mas simplificada de obtener el parametro que se envia por la url es la siguiente:
     /*this.activatedRoute.params
